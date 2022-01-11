@@ -1,0 +1,8 @@
+footer {
+    background-image: linear-gradient(80deg, var(--yellow) 20%, var(--l-yellow) 100%);
+}
+
+footer ul a:hover {
+    padding-left: 0.5rem;
+    transition: 0.5s linear;
+}

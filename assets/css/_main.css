@@ -1,0 +1,50 @@
+/* Education */
+
+main {
+    background-image: url(/assets/img/fix.png);
+    background-attachment: fixed;
+}
+
+.education-part {
+    border-radius: 4.5rem 4.5rem 0 0;
+}
+
+.uni-link:hover {
+    color: var(--indigo);
+    font-weight: bold;
+    transition: 0.2s linear;
+}
+
+
+/* Publication */
+
+.article-title::before {
+
+    font-family: "Font Awesome 5 Free";
+    font-weight: bolder;
+    margin-right: 0.5rem;
+    content: "\f058";
+    color: var(--indigo);
+ 
+}
+
+.article-title {
+    padding: 1rem;
+    border-bottom: 0.1rem solid var(--indigo);
+}
+
+.article-title:hover {
+    font-weight: bold;
+    color: var(--d-indigo);
+    transition: 0.2s ease;
+}
+
+/* Digital Skill */
+
+.skill-title span {
+    border-bottom: 0.1rem solid var(--indigo)
+}
+
+section.contact {
+    border-radius: 0 0 4.5rem 4.5rem;
+}

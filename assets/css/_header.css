@@ -1,0 +1,99 @@
+header {
+    height: auto;
+    background-image: url(../img/land-wave.png), linear-gradient(80deg, var(--l-yellow) 20%, var(--yellow) 100%);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    border-radius: 0 0 4.5rem 4.5rem;
+}
+
+nav {
+    top: 0;
+}
+
+
+/* First Hamburger */
+/* header nav .navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+header nav .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+header nav .navbar-toggler:hover {
+    background-color: var(--l-yellow);
+} */
+
+
+/* Second Hamburger */
+
+.cus-navbar-toggler-label .bar {
+    border-radius: 0.5rem;
+    content: '';
+    display: block;
+    width: 1.8rem;
+    height: 0.12rem;
+    margin-top: 0.43rem;
+    background-color: var(--indigo);
+    transition: opacity 0.1s ease, transform 0.2s ease-in, background-color 0.2s ease-in-out;
+}
+
+input[id='cus-navbar-toggler-input']:checked~label .bar.top {
+    transform: translatey(0.55rem) rotateZ(45deg);
+    background-color: var(--red);
+}
+
+input[id='cus-navbar-toggler-input']:checked~label .bar.bottom {
+    transform: translatey(-0.55rem) rotateZ(-45deg);
+    background-color: var(--red);
+}
+
+input[id='cus-navbar-toggler-input']:checked~label .bar.middle {
+    opacity: 0;
+    background-color: var(--red);
+}
+
+
+/* left side of nav */
+
+header nav div.left-side-nav input[name="btnlanguage"]:checked+label {
+    color: white;
+    background-color: var(--indigo) !important;
+    box-shadow: none;
+}
+
+
+header nav div.left-side-nav input[name="btnlanguage"]+label {
+    padding: 0;
+}
+
+header nav .nav-item {
+    border-bottom: 0.2rem solid rgba(255, 0, 0, 0);
+}
+
+header nav .nav-item:hover {
+    color: var(--indigo);
+    border-bottom: 0.2rem solid var(--indigo);
+}
+
+
+/* Sub navbar */
+header section.sub-nav .my-img-div {
+    padding: 5rem;
+    overflow: hidden;
+}
+
+header section.sub-nav .my-img-div img {
+    box-shadow: 0px 0 20px 5px var(--yellow);
+}
+
+/* header section.sub-nav img:hover {
+    transition: 0.5s ease-in-out;
+    transform: rotate(20deg);
+} */
+
+header section.sub-nav .intro-text {
+    box-shadow: 0px 0px 20px 5px var(--l-yellow);
+    border-radius: 1rem;
+}

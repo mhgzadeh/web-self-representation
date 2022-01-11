@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>MGIRS</title>
+</head>
+
+<body>
+
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light box-d-yellow">
+      <div class="container-lg">
+
+        <div class="left-side-nav">
+          <!-- CV Button -->
+          <button class="btn btn-outline-indigo btn-cv me-3">
+            Download my CV
+            <i class="far fa-file-pdf ms-3"></i>
+          </button>
+
+          <!-- Language button -->
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group me-auto">
+            <input type="radio" class="btn-check" name="btnlanguage" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-indigo ps-1 pe-1" for="btnradio1">DE</label>
+
+            <input type="radio" class="btn-check" name="btnlanguage" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-indigo ps-1 pe-1" for="btnradio2">EN</label>
+          </div>
+        </div>
+        <!-- First Model: Customize bootstrap bars -->
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon indigo"></span>
+        </button> -->
+
+
+        <!-- Second Model: created bars with checkbox -->
+        <input type="checkbox" id="cus-navbar-toggler-input" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" class="d-none">
+        <label for="cus-navbar-toggler-input" class="cus-navbar-toggler-label d-lg-none py-3">
+          <span class="bar top"></span>
+          <span class="bar middle"></span>
+          <span class="bar bottom"></span>
+        </label>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active d-indigo" aria-current="page" href="#education">Education</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active d-indigo" aria-current="page" href="#publication">Publication</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active d-indigo" aria-current="page" href="#digitalSkill">Digital Skill</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active d-indigo" aria-current="page" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section class="sub-nav mb-4">
+
+      <div class="container-lg">
+
+        <div class="row mt-4 justify-content-center">
+
+          <div class="col-12 col-sm-10 col-md-8 col-xl-5">
+            <div class="my-img-div">
+              <img class="img-res rounded-circle p-4" src="./assets/img/Transparent.png">
+            </div>
+
+          </div>
+
+          <div class="col-12 col-xl-7 d-flex justify-content-center mb-4">
+
+            <h2 class="text-center align-self-center intro-text p-4">
+              <span class="d-block m-3 d-indigo"> Geoinformatics Student </span>
+              <span class="d-block m-3 d-indigo mb-4"> at <a class="indigo" href="#">HFT-Stuttgart</a></span>
+              <span class="d-block m-3 d-indigo mt-4"> GIS Software Developer </span>
+              <span class="d-block m-3 d-indigo"> at <a class="indigo" href="#">STEG Company</a></span>
+            </h2>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </header>
+
+  <main>
+
+    <!-- Education -->
+    <section class="container bg-white-tr education-part mt-4">
+      <br>
+      <h2 class="title-education text-center fs-1 mt-4" id="education">
+        Education
+      </h2>
+
+      <div class="row mt-4 align-self-center">
+        <div class="col-2 p-md-4">
+          <a href="https://www.hft-stuttgart.de/">
+            <img class="img-res rounded-circle" src="/assets/img/hft.png" alt="/">
+          </a>
+        </div>
+
+        <div class="col-10 border-left p-md-4 pt-4 pb-4">
+          <div class="mb-3">
+            <a class="fs-5 d-indigo uni-link" href="https://www.hft-stuttgart.de/">Stuttgart University of Applied
+              Sciences</a>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-3 col-md-2 fw-bold">Course :</div>
+            <div class="col-12 col-sm-9 col-md-10">Master of Photogrammetry & Geoinformatics</div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-3 col-md-2 fw-bold">Date :</div>
+            <div class="col-12 col-sm-9 col-md-10">10.2021 - current</div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-3 col-md-2 fw-bold">Location :</div>
+            <div class="col-12 col-sm-9 col-md-10">Stuttgart, Germany</div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row mt-4 align-self-center">
+
+        <div class="col-2 p-md-4">
+          <a href="https://ut.ac.ir/en"><img class="img-res" src="/assets/img/tehran.png" alt="/"></a>
+        </div>
+
+        <div class="col-10 border-left pt-4 pb-4 mb-4">
+
+          <div class="mb-3">
+            <a class="fs-5 d-indigo uni-link" href="https://www.hft-stuttgart.de/">Tehran University</a>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-3 col-md-2 fw-bold">Course :</div>
+            <div class="col-12 col-sm-9 col-md-10">Master of Photogrammetry & Geoinformatics</div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-3 col-md-2 fw-bold">Date :</div>
+            <div class="col-12 col-sm-9 col-md-10">10.2021 - current</div>
+          </div>
+
+          <div class="row ">
+            <div class="col-12 col-sm-3 col-md-2 fw-bold">Location :</div>
+            <div class="col-12 col-sm-9 col-md-10">Stuttgart, Germany</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Publication -->
+    <section class="container bg-l-gray-tr publication-part">
+      <br>
+      <h2 class="title-education text-center fs-1" id="publication">
+        Publication
+      </h2>
+
+      <div class="row p-4">
+        <div class="article-title">
+          <a class="d-indigo fs-5" href="https://link.springer.com/article/10.1007/s12524-021-01399-2">
+            Detection of Oil Pollution Using SAR and Optical Remote Sensing Imagery: A Case Study of the Persian Gulf
+          </a>
+        </div>
+        <div class="p-2 mt-2"><strong>doi: </strong><span>10.1007/s12524-019-01057-8</span></div>
+        <div class="p-2 mt-2"><strong>Journal: </strong><span>Journal of the Indian Society of Remote Sensing -
+            Springer</span></div>
+        <div class="p-2 mt-2"><strong>Published Date: </strong><span>2021</span></div>
+      </div>
+
+      <div class="row p-4">
+        <div class="article-title">
+          <a class="d-indigo fs-5" href="https://link.springer.com/article/10.1007/s12524-019-01057-8">
+            Application of sentinel-1 data to estimate height and biomass of rice crop in Astaneh-ye Ashrafiyeh, Iran
+          </a>
+        </div>
+        <div class="p-2 mt-2"><strong>doi: </strong><span>10.1007/s12524-019-01057-8</span></div>
+        <div class="p-2 mt-2"><strong>Journal: </strong><span>Journal of the Indian Society of Remote Sensing -
+            Springer</span></div>
+        <div class="p-2 mt-2"><strong>Published Date: </strong><span>2020</span></div>
+      </div>
+
+      <div class="row p-4">
+        <div class="article-title">
+          <a class="d-indigo fs-5" href="https://link.springer.com/article/10.1007/s12524-019-00966-y">
+            The Effect of Rapid Population Growth on Urban Expansion and Destruction of Green Space in Tehran from 1972
+            to 2017
+          </a>
+        </div>
+        <div class="p-2 mt-2"><strong>doi: </strong><span>10.1007/s12524-019-00966-y</span></div>
+        <div class="p-2 mt-2"><strong>Journal: </strong><span>Journal of the Indian Society of Remote Sensing -
+            Springer</span></div>
+        <div class="p-2 mt-2"><strong>Published Date: </strong><span>2019</span></div>
+      </div>
+
+      <div class="row p-4">
+        <div class="article-title">
+          <a class="d-indigo fs-5"
+            href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FyaqUvYAAAAJ&alert_preview_top_rm=2&citation_for_view=FyaqUvYAAAAJ:9yKSN-GCB0IC">
+            Validation of Extracted Endmembers from Hyperspectral Images
+          </a>
+        </div>
+        <div class="p-2 mt-2"><strong>Conferance: </strong><span>ISPRS Geospatial Conference</span></div>
+        <div class="p-2 mt-2"><strong>Language: </strong><span>English</span></div>
+        <div class="p-2 mt-2"><strong>Published Date: </strong><span>2019</span></div>
+      </div>
+
+      <div class="row p-4">
+        <div class="article-title">
+          <a class="d-indigo fs-5"
+            href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FyaqUvYAAAAJ&alert_preview_top_rm=2&citation_for_view=FyaqUvYAAAAJ:9yKSN-GCB0IC">
+            Reduction of Insar dem Tropospheric Noise with GPS Observations
+          </a>
+        </div>
+        <div class="p-2 mt-2"><strong>Conferance: </strong><span>ISPRS Geospatial Conference</span></div>
+        <div class="p-2 mt-2"><strong>Language: </strong><span>English</span></div>
+        <div class="p-2 mt-2"><strong>Published Date: </strong><span>2019</span></div>
+      </div>
+
+      <div class="row p-4">
+        <div class="article-title">
+          <a class="d-indigo fs-5" href="https://civilica.com/doc/815841/">
+            Comparison between remote-sensing-based drought indices in Tehran
+          </a>
+        </div>
+        <div class="p-2 mt-2"><strong>Conferance: </strong><span>International Conference on Remote Sensing and
+            Environment</span></div>
+        <div class="p-2 mt-2"><strong>Language: </strong><span>English</span></div>
+        <div class="p-2 mt-2"><strong>Published Date: </strong><span>2018</span></div>
+      </div>
+
+    </section>
+
+    <!-- Digital Skill -->
+    <section class="container bg-white-tr publication-part">
+      <br>
+      <h2 class="title-education text-center fs-1" id="digitalSkill">
+        Digital Skill
+      </h2>
+
+      <div class="row pt-4 ps-4">
+
+        <div class="skill-title">
+          <span class="d-indigo fs-4 pb-2">Programming</span>
+        </div>
+
+        <div class="skill-items p-4 d-indigo">
+          <span>Python</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+          <span>Git</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+          <span>SQL Database: SpatiaLite, PostgreSQL</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+          <span>NoSQL: MongoDB, Redis</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+          <span>front-end: HTML, CSS, SASS, Bootstrap</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+          <span>back-end: Django
+        </div>
+
+      </div>
+
+      <div class="row pt-2 ps-4">
+
+        <div class="skill-title">
+          <span class="d-indigo fs-4 pb-2">GIS</span>
+        </div>
+
+        <div class="skill-items p-4 d-indigo">
+          <span>ArcGIS Pro</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+          <span>QGIS</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+          <span>Basic AutoCad</span>
+        </div>
+
+      </div>
+
+      <div class="row pt-2 ps-4">
+
+        <div class="skill-title">
+          <span class="d-indigo fs-4 pb-2">PG & RS</span>
+        </div>
+
+        <div class="skill-items p-4 d-indigo">
+          <span>ENVI</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+          <span>SNAP</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+          <span>Google Earth Engine</span>
+        </div>
+
+      </div>
+
+      <div class="row pt-2 ps-4">
+
+        <div class="skill-title">
+          <span class="d-indigo fs-4 pb-2">Operating System</span>
+        </div>
+
+        <div class="skill-items p-4 d-indigo">
+          <span>Linux</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+          <span>Windows</span><span class="ms-1 me-1 yellow fw-bolder fs-4">|</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="container bg-white contact">
+      <br>
+      <h2 class="title-education text-center fs-1" id="contact">
+        Contact Information
+      </h2>
+      <div class="row p-4 mt-4 ps-4">
+        <div class="contact-info d-flex justify-content-around">
+          <div class="d-flex flex-column align-items-center">
+            <a href="https://de.linkedin.com/in/mohammad-hosseingholizadeh-787b6a185" target="_blank"><i
+                class="fab fa-linkedin blue fs-1 mb-2"></i></a>
+            <span class="d-block">LinkedIn</span>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <a href="https://scholar.google.com/citations?user=FyaqUvYAAAAJ&hl=en" target="_blank"><i class="fab fa-google fs-1 red mb-2"></i></a>
+            <span class="d-block">Google Scholar</span>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <a href="mailto:m.hgzadeh@gmail.com"><i class="fas fa-envelope fs-1 red mb-2"></i></a>
+            <span class="d-block">Gmail</span>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <i class="fab fa-twitter fs-1 blue mb-2"></i>
+            <span class="d-block">Twitter</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bd-footer pt-3 mt-5 bg-l-yellow">
+    <div class="container py-5">
+
+      <div class="row">
+
+        <div class="col-lg-3 mb-3">
+          <span class="fs-3 fw-bolder py-2 indigo">MHGZ</span>
+          <ul class="d-indigo ">
+            <li class="mb-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, maxime.
+            </li>
+            <li class="mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ea laborum veniam vitae adipisci non.
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-3 offset-lg-1 mb-3">
+          <h5>Link-1</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a class="d-indigo" href="/"><i class="fas fa-arrow-circle-right indigo me-2"></i>Home</a>
+            </li>
+            <li class="mb-2"><a class="d-indigo" href="/"><i class="fas fa-arrow-circle-right indigo me-2"></i>Docs</a>
+            </li>
+            <li class="mb-2"><a class="d-indigo" href="/"><i
+                  class="fas fa-arrow-circle-right indigo me-2"></i>Examples</a></li>
+            <li class="mb-2"><a class="d-indigo" href="/"><i
+                  class="fas fa-arrow-circle-right indigo me-2"></i>Themes</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-3 offset-lg-1 mb-3">
+          <h5>Link-2</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a class="d-indigo" href="/"><i class="fas fa-arrow-circle-right indigo me-2"></i>Home</a>
+            </li>
+            <li class="mb-2"><a class="d-indigo" href="/"><i class="fas fa-arrow-circle-right indigo me-2"></i>Docs</a>
+            </li>
+            <li class="mb-2"><a class="d-indigo" href="/"><i
+                  class="fas fa-arrow-circle-right indigo me-2"></i>Examples</a></li>
+            <li class="mb-2"><a class="d-indigo" href="/"><i
+                  class="fas fa-arrow-circle-right indigo me-2"></i>Themes</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="text-center">Designed with <i class="fas fa-heart red"></i> and <i class="fas fa-coffee d-indigo"></i>
+      by MHGZ</div>
+
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
