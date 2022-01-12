@@ -1,7 +1,7 @@
 /* Education */
 
 main {
-    background-image: url(/assets/img/fix.png);
+    background-image: url(../img/fix.png);
     background-attachment: fixed;
 }
 
