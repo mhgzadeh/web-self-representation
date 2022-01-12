@@ -1,5 +1,6 @@
 footer {
     background-image: linear-gradient(80deg, var(--yellow) 20%, var(--l-yellow) 100%);
+    border-radius: 4.5rem 4.5rem 0 0;
 }
 
 footer ul a:hover {
